@@ -1,0 +1,9 @@
+Inicias primero usuarios.py en el puerto 5001.
+
+Luego ejecutas rutinas.py en el puerto 5002.
+
+Cuando visitas http://localhost:5002/rutina/1, el Microservicio B:
+
+Hace una solicitud HTTP al Microservicio A para obtener los datos del usuario con ID 1.
+
+Con el objetivo del usuario, busca la rutina correspondiente y devuelve una respuesta con el nombre y los ejercicios.
